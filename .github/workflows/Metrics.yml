@@ -47,3 +47,16 @@ jobs:
           plugin_lines: yes
           plugin_traffic: yes
           repositories_forks: yes
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: wakatime_metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: gist
+          committer_gist: ${{ secrets.GIST_ID }}
+
+          user: towan912
+          base: ""
+          plugin_wakatime: yes
+          plugin_wakatime_sections: time, editors, os
+          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+          
