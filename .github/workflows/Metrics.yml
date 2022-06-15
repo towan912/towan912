@@ -17,7 +17,7 @@ jobs:
           filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           output_action: gist
-          # committer_gist: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          committer_gist: ${{ secrets.GIST_ID }}
 
           # Options
           user: towan912
