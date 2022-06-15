@@ -19,8 +19,6 @@ jobs:
 
           user: towan912
           base: activity, community, repositories
-          config_octicon: yes
-          config_timezone: Asia/Tokyo
           repositories_forks: yes
       - uses: lowlighter/metrics@latest
         with:
