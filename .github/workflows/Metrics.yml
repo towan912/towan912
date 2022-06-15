@@ -19,6 +19,11 @@ jobs:
 
           user: towan912
           base: activity, community, repositories
+          config_octicon: yes
+          config_timezone: Asia/Tokyo
+          plugin_followup: yes
+          plugin_followup_indepth: yes
+          plugin_followup_sections: user
           repositories_forks: yes
       - uses: lowlighter/metrics@latest
         with:
