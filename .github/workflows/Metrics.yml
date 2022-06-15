@@ -28,7 +28,7 @@ jobs:
           # Options
           user: towan912
           template: classic
-          base: activity, community, repositories
+          base: activity, community
           base_indepth: yes
           config_display: columns
           config_octicon: yes
