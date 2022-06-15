@@ -30,6 +30,30 @@ jobs:
           repositories_forks: yes
       - uses: lowlighter/metrics@latest
         with:
+          filename: fortune.svg
+          output_action: gist
+          committer_gist: ${{ secrets.GIST_ID }}
+
+          user: towan912
+          base: ""
+          config_octicon: yes
+          config_timezone: Asia/Tokyo
+          plugin_fortune: yes
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: latest_tweet.svg
+          output_action: gist
+          committer_gist: ${{ secrets.GIST_ID }}
+
+          user: towan912
+          base: ""
+          config_octicon: yes
+          config_timezone: Asia/Tokyo
+          plugin_tweets: yes
+          plugin_tweets_limit: 2
+          plugin_tweets_user: towan912        
+      - uses: lowlighter/metrics@latest
+        with:
           filename: habit.svg
           token: ${{ secrets.METRICS_TOKEN }}
           output_action: gist
