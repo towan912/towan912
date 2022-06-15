@@ -31,6 +31,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: fortune.svg
+          token: ${{ secrets.METRICS_TOKEN }}
           output_action: gist
           committer_gist: ${{ secrets.GIST_ID }}
 
@@ -42,6 +43,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: latest_tweet.svg
+          token: ${{ secrets.METRICS_TOKEN }}
           output_action: gist
           committer_gist: ${{ secrets.GIST_ID }}
 
