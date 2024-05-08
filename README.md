@@ -4,5 +4,6 @@
 
 
 <!--START_SECTION:badges-->
-[![AWS Certified Cloud Practitioner](https://images.credly.com/size/110x110/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png)](http://www.credly.com/badges/e903646d-acf1-4048-b785-2ab67677ef33 "AWS Certified Cloud Practitioner")
+[![AWS Certified Solutions Architect – Associate](https://images.credly.com/size/110x110/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png)](http://www.credly.com/badges/a0dc09b0-3bb2-4780-9c08-2a4a49b768cf "AWS Certified Solutions Architect – Associate")
+[![AWS Certified Cloud Practitioner](https://images.credly.com/size/110x110/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png)](http://www.credly.com/badges/a57789cc-c2d3-44c8-b7f6-879b5dc12527 "AWS Certified Cloud Practitioner")
 <!--END_SECTION:badges-->
